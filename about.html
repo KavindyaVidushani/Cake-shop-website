@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Sweet Delights</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="Sweet Delights Logo">
+                <h1>Sweet Delights</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#" id="cartLink">Cart <span class="cart-count">0</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about-page">
+        <div class="container">
+            <div class="about-header">
+                <h1>About Sweet Delights</h1>
+                <p>Learn more about our baking journey and passion</p>
+            </div>
+            
+            <div class="about-content">
+                <h2>Our Story</h2>
+                <p>Founded in 2025, Sweet Delights began with a simple mission: to bake gorgeous, 
+                mouth-watering cakes that make every milestone celebration unforgettable. What started 
+                as a home bakery in Moratuwa has grown into a trusted local favorite for premium custom cakes.</p>
+                
+                <h2>Our Mission</h2>
+                <p>We believe that every celebration deserves a centerpiece dessert. Our mission is to combine 
+                artistic cake design with premium ingredients to deliver extraordinary taste and visual 
+                beauty in every single bite.</p>
+                
+                <h2>Quality Ingredients</h2>
+                <p>We use only the finest ingredients-from rich imported cocoa and fresh butter to farm-fresh 
+                    dairy and fruits-ensuring every cake tastes as wonderful as it looks.</p>
+                
+                <h2>Our Pastry Chefs</h2>
+                <p>Our skilled pastry chefs bring years of baking expertise and artistic flair to our kitchen, 
+                    specializing in custom designs, rich flavors, and flawless wedding tiers.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h2>Your Cart</h2>
+                <span class="close-btn" id="closeCart">&times;</span>
+            </div>
+            <div class="cart-body">
+                <div id="cartItems">
+                    <p class="empty-cart-message">Your cart is empty</p>
+                </div>
+                <div class="cart-footer">
+                    <div class="cart-total">
+                        <h3>Total: LKR <span id="cartTotal">0.00</span></h3>
+                    </div>
+                    <button class="btn-primary checkout-btn" id="checkoutBtn">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sweet Delights</h3>
+                    <p>Baking sweet moments with love since 2025</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> No 316, Galle Rd, Katubedda, Moratuwa</p>
+                    <p><i class="fas fa-phone"></i> 070 413 7615</p>
+                    <p><i class="fas fa-envelope"></i> info@sweetdelights.lk</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sweet Delights Cake Shop. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

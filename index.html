@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Delights - Freshly Baked Cakes Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="Sweet Delights Logo">
+                <h1>Sweet Delights</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#" id="cartLink">Cart <span class="cart-count">0</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Handcrafted Cakes Made for Every Celebration</h1>
+                <p>Order fresh, premium custom cakes and pastries delivered straight to your doorstep in Sri Lanka</p>
+                <a href="menu.html" class="btn-primary">Explore Cakes</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <h2>Our Cake Categories</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <img src="img/chocolate-cake.jpeg" alt="Chocolate Cakes">
+                    <h3>Chocolate Cakes</h3>
+                </div>
+                <div class="category-card">
+                    <img src="img/birthday-cake.jpeg" alt="Birthday Cakes">
+                    <h3>Birthday Cakes</h3>
+                </div>
+                <div class="category-card">
+                    <img src="img/wedding-cake.jpeg" alt="Wedding Cakes">
+                    <h3>Wedding Cakes</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Items Section -->
+    <section class="featured">
+        <div class="container">
+            <h2>Featured Signature Cakes</h2>
+            <div class="food-grid" id="featuredFoods">
+                <!-- Featured items loaded dynamically by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h2>Your Cart</h2>
+                <span class="close-btn" id="closeCart">&times;</span>
+            </div>
+            <div class="cart-body">
+                <div id="cartItems">
+                    <p class="empty-cart-message">Your cart is empty</p>
+                </div>
+                <div class="cart-footer">
+                    <div class="cart-total">
+                        <h3>Total: LKR <span id="cartTotal">0.00</span></h3>
+                    </div>
+                    <button class="btn-primary checkout-btn" id="checkoutBtn">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sweet Delights</h3>
+                    <p>Baking sweet moments with love since 2025</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> No 316, Galle Rd, Katubedda, Moratuwa</p>
+                    <p><i class="fas fa-phone"></i> 070 413 7615</p>
+                    <p><i class="fas fa-envelope"></i> info@sweetdelights.lk</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sweet Delights Cake Shop. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
